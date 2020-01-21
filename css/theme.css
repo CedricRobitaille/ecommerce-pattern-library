@@ -1,0 +1,11 @@
+:root {
+  --color-primary: #37393C;
+  --color-primary-light: #9BA2AD;
+  --color-primary-medium: #52555A;
+
+  --font-primary: Roboto, sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
