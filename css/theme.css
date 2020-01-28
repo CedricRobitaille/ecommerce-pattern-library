@@ -4,8 +4,41 @@
   --color-primary-medium: #52555A;
 
   --font-primary: Roboto, sans-serif;
+
+  --border-thin: 3px;
+  --border-thick: 8px;
+
+  --hover-color: rgba(155, 162, 173, .25);
+  --hover-border-width: 3px;
+
+  --deadspace: 2px;
 }
 
 html {
   font-family: var(--font-primary);
+}
+
+h1 {
+  font-family: var(--font-primary);
+  font-style: bold;
+}
+
+h2 {
+  font-family: var(--font-primary);
+}
+
+h3 {
+  font-family: var(--font-primary);
+}
+
+p {
+  font-family: var(--font-primary);
+}
+
+abbr {
+  font-family: var(--font-primary);
+}
+
+li {
+  font-weight: bold;
 }
