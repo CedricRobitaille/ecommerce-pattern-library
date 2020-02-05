@@ -5,11 +5,10 @@
 
   --font-primary: Roboto, sans-serif;
 
-  --border-thin: 3px;
+  --border-thin: 4px;
   --border-thick: 8px;
 
   --hover-color: rgba(155, 162, 173, .25);
-  --hover-border-width: 3px;
 
   --deadspace: 2px;
 }
@@ -21,6 +20,7 @@ html {
 h1 {
   font-family: var(--font-primary);
   font-style: bold;
+  color: var(--color-primary);
 }
 
 h2 {
@@ -41,4 +41,8 @@ abbr {
 
 li {
   font-weight: bold;
+}
+
+.text-dark {
+  color: var(--color-primary);
 }

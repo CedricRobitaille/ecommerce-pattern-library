@@ -1,0 +1,24 @@
+.banner {
+  background-color: var(--color-primary-medium);
+  height: 20em;
+}
+
+.card:hover {
+  filter: brightness(1.25);
+}
+
+.card-width {
+  max-width: 25em;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.product-card:hover .hide {
+  visibility: visible;
+}
+
+.icon-display {
+  width:90%;
+}
