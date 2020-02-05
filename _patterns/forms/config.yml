@@ -1,0 +1,28 @@
+title: "Forms"
+description: |
+  To be used upon creating and logging into an account and when changing account details.
+
+patterns:
+  text-input:
+    title: "Text input"
+    description: |
+      Standard text input for forms.
+    background: "--color-primary-medium"
+
+  password-input:
+    title: "Password input"
+    background: "--color-primary-medium"
+
+  email-input:
+    title: "Email input"
+    background: "--color-primary-medium"
+
+  phone-input:
+    title: "Phone input"
+    background: "--color-primary-medium"
+
+  basic-label:
+    title: "Basic Label"
+    description: |
+      To be used before each input section.
+    background: "--color-primary-medium"

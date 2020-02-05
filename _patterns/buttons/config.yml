@@ -7,18 +7,15 @@ patterns:
     title: "Basic"
     description: |
       Default button to be used for all ganeral uses. From banner call to actions, to generic confirmations. This is the all purpose button.
-    width: 10em;
     background: "--color-primary-medium"
   ghost:
     title: "Ghost"
     description: |
       The ghost button is specifically used for the search button.
-    width: 10em;
     background: "--color-primary-medium"
 
   btn-light:
     title: "Light"
     description: |
       To be used to small instances where the basic button should be used, however without a border.
-    width: 10em;
     background: "--color-primary-medium"
