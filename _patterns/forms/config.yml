@@ -22,7 +22,11 @@ patterns:
     background: "--color-primary-medium"
 
   basic-label:
-    title: "Basic Label"
+    title: "Basic label"
     description: |
       To be used before each input section.
     background: "--color-primary-medium"
+
+  button:
+    title: "Submit button"
+    descption: "--color-primary-medium"

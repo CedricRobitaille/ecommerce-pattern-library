@@ -5,9 +5,13 @@
   var random_color = colors[Math.floor(Math.random() * colors.length)];
   var btn = elem.querySelector(".btn");
   var card = elem.querySelector(".card-color");
+  var input = elem.querySelector(".input");
 
   if (btn) {
     btn.style.color = random_color;
+  }
+  if (input) {
+    input.style.color = random_color;
   }
 
   elem.style.backgroundColor = random_color;

@@ -25,14 +25,32 @@ h1 {
 
 h2 {
   font-family: var(--font-primary);
+  color: var(--color-primary-light);
 }
 
 h3 {
   font-family: var(--font-primary);
+  color: var(--color-primary-light);
+}
+
+h4 {
+  font-family: var(--font-primary);
+  color: var(--color-primary-light);
+}
+
+h5 {
+  font-family: var(--font-primary);
+  color: var(--color-primary-light);
+}
+
+h6 {
+  font-family: var(--font-primary);
+  color: var(--color-primary-light);
 }
 
 p {
   font-family: var(--font-primary);
+  color: var(--color-primary-light);
 }
 
 abbr {
@@ -41,6 +59,17 @@ abbr {
 
 li {
   font-weight: bold;
+  color: var(--color-primary-light);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+mark {
+  color: var(--color-primary-light);
+  background-color: var(--color-primary-medium);
 }
 
 .text-dark {

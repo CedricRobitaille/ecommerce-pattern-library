@@ -1,28 +1,15 @@
 title: "Cards"
 description: |
-  To be used upon creating and logging into an account and when changing account details.
+  Cards are the backbone of this website. All content should be displayed on cards. Only content not found on cards are header and footer content.
 
 patterns:
-  text-input:
-    title: "Text input"
+  banner:
+    title: "Banner"
     description: |
-      Standard text input for forms.
-    background: "--color-primary-medium"
+      To be used on the landing page to help promote the service provided.
 
-  password-input:
-    title: "Password input"
-    background: "--color-primary-medium"
-
-  email-input:
-    title: "Email input"
-    background: "--color-primary-medium"
-
-  phone-input:
-    title: "Phone input"
-    background: "--color-primary-medium"
-
-  basic-label:
-    title: "Basic Label"
+  product:
+    title: "Product card"
     description: |
-      To be used before each input section.
-    background: "--color-primary-medium"
+      This holds the main content for the website.
+    width: 20em;

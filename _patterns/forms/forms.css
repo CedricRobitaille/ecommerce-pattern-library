@@ -14,3 +14,21 @@ input[type=text], input[type=password], input[type=email], input[type=tel], inpu
   width: 100%;
   padding: 1.25em;
 }
+
+button, select, textarea {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  border-radius: var(--border-thick);
+  color: var(--color-primary-light);
+  width: 100%;
+  padding: 1.25em;
+}
+
+button:hover, select, textarea {
+  background-color: var(--color-primary-medium);
+  border-color: var(--color-primary);
+  border-radius: var(--border-thick);
+  color: var(--color-primary-light);
+  width: 100%;
+  padding: 1.25em;
+}
