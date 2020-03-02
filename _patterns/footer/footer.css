@@ -1,0 +1,4 @@
+.footer {
+  min-height: calc(15vh);
+  border-top: var(--border-thin) solid var(--color-primary-medium);
+}

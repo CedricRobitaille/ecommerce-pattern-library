@@ -1,0 +1,8 @@
+.masthead {
+  min-height: calc(15vh);
+  border-bottom: var(--border-thin) solid var(--color-primary-medium);
+}
+
+.search-crop {
+  max-width: 50%;
+}

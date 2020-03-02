@@ -2,10 +2,6 @@ input.value {
   color: #000;
 }
 
-input {
-
-}
-
 input[type=text], input[type=password], input[type=email], input[type=tel], input[type=number], select, textarea {
   background-color: var(--color-primary);
   border-color: var(--color-primary);
@@ -18,15 +14,54 @@ input[type=text], input[type=password], input[type=email], input[type=tel], inpu
 button, select, textarea {
   background-color: var(--color-primary);
   border-color: var(--color-primary);
+  border-width: var(--border-thick);
   border-radius: var(--border-thick);
   color: var(--color-primary-light);
   width: 100%;
-  padding: 1.25em;
+  padding: 1.125em;
 }
 
 button:hover, select, textarea {
-  background-color: var(--color-primary-medium);
-  border-color: var(--color-primary);
+  color: var(--color-primary-light);
+  background-color: var(--color-primary-medium) !important;
+  transition: all .2s linear;
+  filter: brightness(1.25);
+  border: var(--border-thick) solid var(--color-primary);
+  border-radius: var(--border-thick);
+}
+
+.is-validated input:invalid,
+.is-validated input[type="checkbox"]:invalid + label::before,
+.is-validated:invalid,
+.is-validated[type="checkbox"]:invalid + label::before {
+  border-color: #a44;
+  border-radius: var(--border-thin);
+}
+
+.error-message {
+  display: none;
+  background-color: #cbb;
+  color: #a44;
+  border-radius: var(--border-thick);
+}
+
+.error-message-highlighted {
+  background-color: #a44;
+  color: #fff;
+}
+
+.is-validated > .error-message:first-child,
+.is-validated input:invalid + .error-message,
+.is-validated input:invalid + label + .error-message,
+.is-validated:invalid + .error-message,
+.is-validated:invalid + label + .error-message {
+  display: block;
+}
+
+input[type=search], select, textarea {
+  background-color: var(--color-primary);
+  border-color: var(--color-medium);
+  border-width: var(--border-thick);
   border-radius: var(--border-thick);
   color: var(--color-primary-light);
   width: 100%;

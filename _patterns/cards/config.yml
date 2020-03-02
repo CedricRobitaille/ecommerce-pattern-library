@@ -13,3 +13,11 @@ patterns:
     description: |
       This holds the main content for the website.
     width: 20em;
+
+  form-horizontal:
+    title: "Horizonal Form"
+    width: 50em;
+
+  form-vertical:
+    title: "Vertical Form"
+    width: 20em;

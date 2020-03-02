@@ -75,3 +75,12 @@ mark {
 .text-dark {
   color: var(--color-primary);
 }
+
+input {
+  font-family: var(--font-primary);
+}
+
+button {
+  font-family: var(--font-primary);
+  font-weight: normal;
+}

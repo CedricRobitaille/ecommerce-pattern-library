@@ -29,4 +29,10 @@ patterns:
 
   button:
     title: "Submit button"
-    descption: "--color-primary-medium"
+    background: "--color-primary-medium"
+
+  search:
+    title: "Search"
+    background: "--color-primary"
+    description: |
+      Standard search form. To be used once per page in or near the top nav.

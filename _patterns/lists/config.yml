@@ -1,0 +1,20 @@
+title: "Basic lists"
+description: |
+  This is a demonstration of the various listings of content and how they should be displayed on the site.
+background: "--color-primary"
+
+patterns:
+  landing-content:
+    title: "Basic Landing Page"
+    description: |
+      The standard landing page content. Should have a banner with 3 mini-banners for quick topics.
+
+  product-list:
+    title: "Basic Browse Content"
+    description: |
+      The standard format for listing main content.
+
+  sign-up:
+    title: "Sign Up Page"
+    description: |
+      The standard sign up page format.
