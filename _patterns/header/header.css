@@ -1,6 +1,16 @@
-.masthead {
-  min-height: calc(15vh);
+.masthead-content {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  z-index: 1000;
   border-bottom: var(--border-thin) solid var(--color-primary-medium);
+  background-color: var(--color-primary);
+}
+
+.masthead {
+  /* height: calc(10vh); */
+  height: 4em;
 }
 
 .search-crop {

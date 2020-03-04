@@ -7,12 +7,29 @@ patterns:
     title: "Banner"
     description: |
       To be used on the landing page to help promote the service provided.
+    fields:
+      - name: heading
+        type: string
+        example: "Get access to our ever-expanding collection of icons"
+      - name: button_text
+        type: string
+        example: Try Now
+      - name: button_url
+        type: button_url
+        example: "/account/"
 
   product:
     title: "Product card"
     description: |
       This holds the main content for the website.
     width: 20em;
+    fields:
+      - name: text
+        type: string
+        example: Icon Name
+      - name: icon
+        type: string
+        example: icon.svg
 
   form-horizontal:
     title: "Horizonal Form"

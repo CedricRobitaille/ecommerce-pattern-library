@@ -8,6 +8,13 @@ patterns:
     description: |
       Default button to be used for all ganeral uses. From banner call to actions, to generic confirmations. This is the all purpose button.
     background: "--color-primary-medium"
+    fields:
+      - name: text
+        type: string
+        example: "Try Now"
+      - name: url
+        type: url
+        example: "/account/"
   ghost:
     title: "Ghost"
     description: |

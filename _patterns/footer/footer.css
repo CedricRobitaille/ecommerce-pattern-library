@@ -1,4 +1,13 @@
 .footer {
-  min-height: calc(15vh);
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  z-index: 999;
   border-top: var(--border-thin) solid var(--color-primary-medium);
+  background-color: var(--color-primary);
+}
+
+html {
+  background-color: var(--color-primary);
 }

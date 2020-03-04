@@ -2,9 +2,9 @@
 <div class="relative">
   <div id="card" class="banner card-color ">
     <div class="pin-c">
-      <h1 class="yotta text-center push">Get access to our ever-expanding collection of icons</h1>
+      <h1 class="yotta text-center push">{{include.heading}}</h1>
       <div class="text-center tera bold">
-        {% pattern buttons/basic %}
+        {% pattern buttons/basic url=include.button_url text=include.button_text %}
       </div>
     </div>
   </div>
