@@ -1,4 +1,4 @@
-    var colors = ['#C38376', '#D1CBAA', '#95CAD9', '#A9A1E8', '#B7E2B3', '#F8AC9C', '#9ECB86', '#C7AD8A', '#D88A93', '#8DD1AC', '#75DDC1'];
+    var colors = ['#FFA5DB', '#F7A5FF', '#A5BAFF', '#A5E1FF', '#A5FFF9', '#A5FFCA', '#E7FFA5', '#FFF0A5', '#FFCCA5', '#FFB3A5', '#FFA5C3', '#D3A5FF', '#ADA5FF', '#A5C2FF', '#A5DBFF', '#A5FFF7', '#BAFFA5', '#E1FFA5', '#FFF9A5'];
     var cards=document.querySelectorAll(".card-color");
 
 [].forEach.call(cards, (elem)=>{

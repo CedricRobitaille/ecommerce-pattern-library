@@ -26,3 +26,7 @@ patterns:
     description: |
       To be used to small instances where the basic button should be used, however without a border.
     background: "--color-primary-medium"
+    fields:
+      - name: file
+        type: string
+        example: "/images/icons/logo.svg"

@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="content wrapper pad-b-2">
+  <div class="gutter-2">
+    <div class="grid grid-stretch">
+      <div class="unit xs-1 m-1-2 unit-content-distribute island-1-8">
+          {% pattern cards/product-full icon=page.image %}
+      </div>
+      <div class="unit xs-1 m-1-2 unit-content-distribute island-1-8">
+        {% pattern cards/product-content name=page.name author=page.author collection=page.collection file=page.file license=page.license related-searches=page.related-searches %}
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Content for other options.
+Seen as main csrds in browse. -->
+
+<!-- name: "Search"
+author: "Cedric Robitaille"
+collection: "IcoStash Originals"
+license: "Creative Commons©"
+related-searches: "Search, Magnifying Glass, Browse"
+image: "/images/icons/logo.svg"
+file: "/images/icons/logo.svg" -->

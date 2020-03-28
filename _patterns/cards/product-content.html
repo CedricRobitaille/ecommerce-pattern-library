@@ -1,0 +1,15 @@
+<div class="content-fill h-100 card-color">
+    <div class="island">
+      <div class="gutter-1-2 pad-t-1-8">
+        <h1 class="zetta bold push-none text-center">{{include.name}}</h1>
+        <p class="giga bold push-none">{{include.author}}</p>
+        <p class="mega bold push-1-2">{{include.collection}}</p>
+        <div class="push-1-2">
+          {% pattern buttons/btn-light file=include.file %}
+        </div>
+        <p class="milli bold push-none">{{include.license}}</p>
+        <p class="milli bold push-none">Related searches:</p>
+        <p class="nano bold push-none">{{include.related-searches}}</p>
+      </div>
+    </div>
+</div>

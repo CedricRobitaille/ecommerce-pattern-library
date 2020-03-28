@@ -30,6 +30,14 @@ button:hover, select, textarea {
   border-radius: var(--border-thick);
 }
 
+.search-button:hover {
+  background-color: var(--color-primary-medium) !important;
+  transition: all .2s linear;
+  filter: brightness(1.25);
+  border: var(--border-thick) solid var(--color-primary-light);
+  border-radius: var(--border-thick);
+}
+
 .is-validated input:invalid,
 .is-validated input[type="checkbox"]:invalid + label::before,
 .is-validated:invalid,
@@ -58,12 +66,27 @@ button:hover, select, textarea {
   display: block;
 }
 
-input[type=search], select, textarea {
+input[type=search]{
   background-color: var(--color-primary);
   border-color: var(--color-medium);
   border-width: var(--border-thick);
   border-radius: var(--border-thick);
   color: var(--color-primary-light);
   width: 100%;
-  padding: 1.25em;
+  height: 62px;
+}
+
+.search-button {
+  background-color: var(--color-primary);
+  border-color: var(--color-medium);
+  border-width: var(--border-thick);
+  border-radius: var(--border-thick);
+  color: var(--color-primary-light);
+  padding: .4em;
+  width: 4em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+
 }

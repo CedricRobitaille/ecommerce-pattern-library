@@ -11,3 +11,7 @@
 html {
   background-color: var(--color-primary);
 }
+
+p {
+  color: var(--color-primary);
+}

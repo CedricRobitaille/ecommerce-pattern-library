@@ -18,7 +18,41 @@ patterns:
         type: button_url
         example: "/account/"
 
-  product:
+  product-full:
+    title: "Product Display"
+    description: |
+      Holds the icon for the products page.
+    width: 20em;
+    fields:
+      - name: icon
+        type: string
+        example: "/images/icons/logo.svg"
+
+  product-content:
+    title: "Product Content"
+    description: |
+      Holds the description and download button for the products page.
+    fields:
+      - name: name
+        type: string
+        example: "Icon's Name"
+      - name: author
+        type: string
+        example: "Author's Name"
+      - name: collection
+        type: string
+        example: "Collection's Name"
+      - name: file
+        type: string
+        example: "/images/icons/logo.svg"
+      - name: license
+        type: string
+        example: "License"
+      - name: related-searches
+        type: string
+        example: "Logo, IcoStash, Filler."
+
+  product-card:
     title: "Product card"
     description: |
       This holds the main content for the website.
@@ -29,12 +63,77 @@ patterns:
         example: Icon Name
       - name: icon
         type: string
-        example: icon.svg
+        example: "/images/icons/logo.svg"
+      - name: url
+        type: string
+        example: "#"
 
   form-horizontal:
     title: "Horizonal Form"
     width: 50em;
+    fields:
+      - name: icon
+        type: string
+        example: logo.svg
+      - name: input1_id
+        type: string
+        example: name
+      - name: input1_example
+        type: string
+        example: Name
+      - name: input1_type
+        type: string
+        example: text
+      - name: input2_id
+        type: string
+        example: name
+      - name: input2_example
+        type: string
+        example: Name
+      - name: input2_type
+        type: string
+        example: text
+      - name: input3_id
+        type: string
+        example: name
+      - name: input3_example
+        type: string
+        example: Name
+      - name: input3_type
+        type: string
+        example: text
 
   form-vertical:
     title: "Vertical Form"
     width: 20em;
+    fields:
+      - name: icon
+        type: string
+        example: logo.svg
+      - name: input1_id
+        type: string
+        example: name
+      - name: input1_example
+        type: string
+        example: Name
+      - name: input1_type
+        type: string
+        example: text
+      - name: input2_id
+        type: string
+        example: name
+      - name: input2_example
+        type: string
+        example: Name
+      - name: input2_type
+        type: string
+        example: text
+      - name: input3_id
+        type: string
+        example: name
+      - name: input3_example
+        type: string
+        example: Name
+      - name: input3_type
+        type: string
+        example: text

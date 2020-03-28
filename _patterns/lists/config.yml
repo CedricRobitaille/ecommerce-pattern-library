@@ -1,9 +1,0 @@
-title: "Basic lists"
-background: "--color-primary"
-
-patterns:
-
-  sign-up:
-    title: "Sign Up Page"
-    description: |
-      The standard sign up page format.

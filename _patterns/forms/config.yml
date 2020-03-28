@@ -8,18 +8,16 @@ patterns:
     description: |
       Standard text input for forms.
     background: "--color-primary-medium"
-
-  password-input:
-    title: "Password input"
-    background: "--color-primary-medium"
-
-  email-input:
-    title: "Email input"
-    background: "--color-primary-medium"
-
-  phone-input:
-    title: "Phone input"
-    background: "--color-primary-medium"
+    fields:
+      - name: id
+        type: string
+        example: name
+      - name: example
+        type: string
+        example: Name
+      - name: type
+        type: string
+        example: text
 
   basic-label:
     title: "Basic label"

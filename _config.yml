@@ -16,3 +16,13 @@ patternbot:
       Roboto was selected as it's a minimalistic clean typeface, reflecting what icons are best used and described as. Roboto is to be used on all headings and body copy.
     colors.primary: |
       The primary colours represent a modern and minimalistic environment, reflected in our target audience. The darkest shade shall be used for the background and any reversed text. The lighter hues are for text and borders when displayed on the dark background.
+
+collections:
+  products:
+    output: true
+
+defaults:
+  - scope:
+      path: _products
+    values:
+      layout: product

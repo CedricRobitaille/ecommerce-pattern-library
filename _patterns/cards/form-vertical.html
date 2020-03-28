@@ -2,16 +2,16 @@
   <div class="card-color">
     <div class="gutter pad-t pad-b-1-2">
       <div class="gutter-1-2">
-        <img class="" src="/images/icons/logo.svg" alt="">
+        <img class="" src="/images/icons/{{include.icon}}" alt="">
         <div class="pad-t-1-2 pad-b-1-2">
           <div class="pad-t-1-2 pad-b-1-2">
-            {% pattern forms/text-input %}
+            {% pattern forms/text-input type=include.input1_type example=include.input1_example id=include.input1_id %}
           </div>
           <div class="pad-t-1-2 pad-b-1-2">
-            {% pattern forms/phone-input %}
+            {% pattern forms/text-input type=include.input2_type example=include.input2_example id=include.input2_id %}
           </div>
           <div class="pad-t-1-2 pad-b-1-2">
-            {% pattern forms/text-input %}
+            {% pattern forms/text-input type=include.input3_type example=include.input3_example id=include.input3_id %}
           </div>
           <div class="pad-t-1-2 pad-b-1-2">
             {% pattern forms/button %}
