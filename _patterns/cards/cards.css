@@ -33,13 +33,37 @@
 }
 
 .product-content{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .card-content{
   display: block;
   flex-direction: row;
   justify-content: center;
+}
+
+@media only screen and (min-width: 38em) {
+
+.grid-container {
+  display: grid;
+  grid-template-columns: [col1-start] 3fr [col2-start] 2fr [col2-end];
+  grid-template-rows: [row1-start] 1fr [row2-start] 1fr [row2-end];
+  grid-gap: .125em;
+
+}
+
+.item-1 {
+  grid-column; col1-start;
+  grid-row; row1-start;
+}
+.item-2 {
+  grid-column; col1-start;
+  grid-row: row2-start;
+}
+.item-3 {
+grid-column: col2-start;
+grid-row: row1-start / row2-end;
+}
 }
