@@ -67,3 +67,11 @@ grid-column: col2-start;
 grid-row: row1-start / row2-end;
 }
 }
+
+.icon-display {
+  max-height: 6.75em;
+}
+
+.icon-display-big {
+  max-height: 13.75em;
+}
