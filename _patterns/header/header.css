@@ -27,6 +27,10 @@
   display: none;
 }
 
+.small-content {
+  max-height: 18em;
+}
+
 .masthead {
   /* height: calc(10vh); */
   height: 149px;
