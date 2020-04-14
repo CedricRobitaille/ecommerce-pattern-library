@@ -18,6 +18,15 @@ patterns:
         type: button_url
         example: "/account/"
 
+  alert:
+    title: "Alert Banner"
+    description: |
+      To be used on when there is a notice or alert.
+    fields:
+      - name: text
+        type: string
+        example: "Bulk Promotion Alert"
+
   product-full:
     title: "Product Display"
     description: |
@@ -67,6 +76,25 @@ patterns:
         data:
           source: "site.products[0]"
           type: Product
+      - name: url
+        type: string
+        example: "#"
+
+  product-card-home:
+    title: "Product card Home"
+    description: |
+      This holds the main content for the Homepage.
+    width: 20em;
+    fields:
+      - name: text
+        type: string
+        example: Page Name
+      - name: image
+        type: string
+        example: "/images/icons/logo.svg"
+        data:
+          source: "site.daily[0]"
+          type: daily
       - name: url
         type: string
         example: "#"
@@ -140,3 +168,20 @@ patterns:
       - name: input3_type
         type: string
         example: text
+
+  single-input:
+    title: "Single Input Form"
+    width: 50em;
+    fields:
+      - name: text
+        type: string
+        example: Register to our newsletter for deals and notifications.
+      - name: id
+        type: string
+        example: email
+      - name: example
+        type: string
+        example: email
+      - name: type
+        type: string
+        example: email

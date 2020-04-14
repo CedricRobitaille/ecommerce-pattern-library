@@ -12,6 +12,10 @@ html {
   background-color: var(--color-primary);
 }
 
-p {
+.t-dark {
   color: var(--color-primary);
+}
+
+.t-light {
+  color: var(--color-primary-light);
 }

@@ -2,21 +2,14 @@
 layout: default
 ---
 
-<div class="content wrapper pad-b-2">
-  <div class="pad-t-1-8 gutter-2">
-
-
-    <div class="gutter-1-8">
-      {% pattern cards/banner button_text="Try Now" button_url="/account/" heading="Get access to our ever-expanding collection of icons" %}
-    </div>
+  <div class="gutter-2">
+    {% pattern cards/banner button_text="Try Now" button_url="/account/" heading="Get access to our ever-expanding collection of icons" %}
 
     <div class="grid pad-t-1-8">
-      {% assign random_products=site.products|sample:3 %}
-      {% for product in random_products %}
+      {% for daily in site.daily %}
         <div class="unit xs-1 s-1-2 m-1-3 l-1-3">
-          {% pattern cards/product-card data=product %}
+          {% pattern cards/product-card-home data=daily %}
         </div>
       {% endfor %}
     </div>
   </div>
-</div>

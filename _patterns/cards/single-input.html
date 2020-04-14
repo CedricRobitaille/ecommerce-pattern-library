@@ -1,0 +1,13 @@
+<div class="island-1-8">
+  <div class="card-color">
+    <div class="island-1-2">
+      <h2 class="t-dark text-center push-none pad-t">{{include.text}}</h2>
+    </div>
+    <div class="gutter-2 pad-b-2">
+      <div class="pad-t-1-2 pad-b-1-2">
+        {% pattern forms/text-input type=include.type example=include.example id=include.id %}
+      </div>
+      {% pattern forms/button %}
+    </div>
+  </div>
+</div>
