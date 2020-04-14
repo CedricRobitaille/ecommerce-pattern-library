@@ -41,6 +41,7 @@ patterns:
     title: "Product Content"
     description: |
       Holds the description and download button for the products page.
+    width: 50em;
     fields:
       - name: name
         type: string
@@ -88,7 +89,7 @@ patterns:
     fields:
       - name: text
         type: string
-        example: Page Name
+        example: "Page Name"
       - name: image
         type: string
         example: "/images/icons/logo.svg"
@@ -101,6 +102,8 @@ patterns:
 
   form-horizontal:
     title: "Horizonal Form"
+    description: |
+      This holds a series of inputs from a form, in a horizontal layout.
     width: 50em;
     fields:
       - name: icon
@@ -136,6 +139,8 @@ patterns:
 
   form-vertical:
     title: "Vertical Form"
+    description: |
+      This holds a series of inputs from a form, in a vertical layout.
     width: 20em;
     fields:
       - name: icon
@@ -171,6 +176,8 @@ patterns:
 
   single-input:
     title: "Single Input Form"
+    description: |
+      This holds a single form input, in a horizontal layout.
     width: 50em;
     fields:
       - name: text

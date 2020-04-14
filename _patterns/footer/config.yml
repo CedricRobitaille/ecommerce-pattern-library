@@ -2,8 +2,3 @@ title: "Footer"
 background: "--color-primary-medium"
 description: |
   Footer to be used on all pages.
-
-# patterns:
-#   footer:
-#     title: "footer"
-#     background: "--color-primary-medium"

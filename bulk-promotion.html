@@ -2,64 +2,62 @@
 layout: default
 ---
 
-<div class="gutter-2">
+{% pattern cards/alert text="Bulk Promotion Alert" %}
 
-  {% pattern cards/alert text="Bulk Promotion Alert" %}
-
+<div class="pad-t-1-8 pad-b-1-8">
   {% pattern cards/banner button_text="Buy Now" button_url="/account/" heading="'Go Big or Go Home' is what my ol' man used to say." %}
-
-  <div class="grid">
-    {% assign random_products=site.products|sample:2 %}
-    {% for product in random_products %}
-    <div class="unit xs-1 m-1-2">
-      {%pattern cards/product-card data=product %}
-    </div>
-    {% endfor %}
-  </div>
-
-  <div class="island-1-8">
-    <div class="card-color">
-      <table class="push-none">
-        <thead class="t-dark">
-          <tr>
-            <th class="t-dark" scope="col">Quantity</th>
-            <th class="t-dark" scope="col">Price/Each</th>
-            <th class="t-dark" scope="col">Discount</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="t-dark">1-10</td>
-            <td class="t-dark">\$5.99</td>
-            <td class="t-dark">5%</td>
-          </tr>
-          <tr>
-            <td class="t-dark">11-49</td>
-            <td class="t-dark">\$5.49</td>
-            <td class="t-dark">10%</td>
-          </tr>
-          <tr>
-            <td class="t-dark">50-100</td>
-            <td class="t-dark">\$4.99</td>
-            <td class="t-dark">15%</td>
-          </tr>
-          <tr>
-            <td class="t-dark">100-500</td>
-            <td class="t-dark">\$4.25</td>
-            <td class="t-dark">20%</td>
-          </tr>
-          <tr>
-            <td class="t-dark">500+</td>
-            <td class="t-dark">\$3.99</td>
-            <td class="t-dark">25%</td>
-          </tr>
-        </tbody>
-
-      </table>
-    </div>
-  </div>
-
-  {% pattern cards/single-input text="Register to our newsletter for deals and notifications." id="email" example="email" type="email" %}
-
-
 </div>
+
+
+<div class="grid">
+  {% assign random_products=site.products|sample:2 %}
+  {% for product in random_products %}
+  <div class="unit xs-1 m-1-2">
+    {%pattern cards/product-card data=product %}
+  </div>
+  {% endfor %}
+</div>
+
+<div class="island-1-8">
+  <div class="card-color">
+    <table class="push-none">
+      <thead class="t-dark">
+        <tr>
+          <th class="t-dark" scope="col">Quantity</th>
+          <th class="t-dark" scope="col">Price/Each</th>
+          <th class="t-dark" scope="col">Discount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="t-dark">1-10</td>
+          <td class="t-dark">\$5.99</td>
+          <td class="t-dark">5%</td>
+        </tr>
+        <tr>
+          <td class="t-dark">11-49</td>
+          <td class="t-dark">\$5.49</td>
+          <td class="t-dark">10%</td>
+        </tr>
+        <tr>
+          <td class="t-dark">50-100</td>
+          <td class="t-dark">\$4.99</td>
+          <td class="t-dark">15%</td>
+        </tr>
+        <tr>
+          <td class="t-dark">100-500</td>
+          <td class="t-dark">\$4.25</td>
+          <td class="t-dark">20%</td>
+        </tr>
+        <tr>
+          <td class="t-dark">500+</td>
+          <td class="t-dark">\$3.99</td>
+          <td class="t-dark">25%</td>
+        </tr>
+      </tbody>
+
+    </table>
+  </div>
+</div>
+
+{% pattern cards/single-input text="Register to our newsletter for deals and notifications." id="email" example="email" type="email" %}
