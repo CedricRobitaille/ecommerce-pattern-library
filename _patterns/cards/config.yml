@@ -89,7 +89,7 @@ patterns:
     fields:
       - name: text
         type: string
-        example: "Page Name"
+        example: "Blog"
       - name: image
         type: string
         example: "/images/icons/logo.svg"
