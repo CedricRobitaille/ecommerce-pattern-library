@@ -31,4 +31,4 @@ defaults:
   - scope:
       path: _daily
     values:
-      layout: daily
+      layout: product
