@@ -68,18 +68,11 @@ patterns:
       This holds the main content for the website.
     width: 20em;
     fields:
-      - name: name
-        type: string
-        example: Icon Name
-      - name: image
-        type: string
-        example: "/images/icons/logo.svg"
+      - name: "data"
+        type: "object"
         data:
-          source: "site.products[0]"
-          type: Product
-      - name: url
-        type: string
-        example: "#"
+          source: "site.data.products[1]"
+          type: "Product"
 
   product-card-home:
     title: "Product card Home"
@@ -87,18 +80,16 @@ patterns:
       This holds the main content for the Homepage.
     width: 20em;
     fields:
-      - name: text
-        type: string
-        example: "Blog"
-      - name: image
-        type: string
-        example: "/images/icons/logo.svg"
+      - name: "text"
+        type: "string"
         data:
-          source: "site.daily[0]"
-          type: daily
-      - name: url
-        type: string
-        example: "#"
+          source: "site.data.products[1]"
+          type: "Product"
+      - name: "image"
+        type: "string"
+        data:
+          source: "site.data.products[1]"
+          type: "Product"
 
   form-horizontal:
     title: "Horizonal Form"
